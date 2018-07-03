@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
+    <title>navIconAccount</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round">
+        <g id="navIconAccount" stroke="#fff" stroke-width="2">
+            <path d="M18,18 C15.6121853,13.3333333 12.9455187,11 10,11 C7.05448133,11 4.38781467,13.3333333 2,18 L18,18 Z" id="Oval-6-Copy"></path>
+            <circle id="Oval-6" fill="#46B4E8" cx="10" cy="8" r="6"></circle>
+        </g>
+    </g>
+</svg>

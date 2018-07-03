@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="62px" height="62px" viewBox="0 0 62 62" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
+    <title>Group</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="20-rewards-cart-confirmed" transform="translate(-882.000000, -300.000000)">
+            <g id="Group" transform="translate(883.000000, 301.000000)">
+                <circle id="Oval" stroke="#46B4E8" stroke-width="2" stroke-linecap="round" cx="30" cy="30" r="30"></circle>
+                <path d="M38.5,45.4318182 C36.6325407,42.8560606 33.7992074,41.5681818 30,41.5681818 C26.2007926,41.5681818 23.3674593,42.8560606 21.5,45.4318182" id="Oval-Copy" stroke="#46B4E8" stroke-width="2" stroke-linecap="round" transform="translate(30.000000, 43.500000) translate(-30.000000, -43.500000) "></path>
+                <circle id="Oval-7" fill="#46B4E8" cx="43" cy="30" r="2"></circle>
+                <circle id="Oval-7-Copy" fill="#46B4E8" cx="17" cy="30" r="2"></circle>
+            </g>
+        </g>
+    </g>
+</svg>

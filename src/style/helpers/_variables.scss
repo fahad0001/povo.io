@@ -1,0 +1,70 @@
+///////////////////////
+// Colors
+///////////////////////
+$red: #dd4b39;
+$blue: #3b5998;
+$skyblue: #46b4e8;
+$gray: #4a4a4a;
+$gray-light: #9b9b9b;
+$gray-lighter: #d8d8d8;
+$gray-extra-light: #e7e7e7;
+$base-background: #f8f8f8;
+
+///////////////////////
+// Layout
+///////////////////////
+$header-height: 62px;
+$account-menu-width: 280px;
+$base-border-radius: 4px !default;
+$strong-border-radius: 20px !default;
+
+///////////////////////
+// Typography
+///////////////////////
+$base-font-family: "Circe" !default;
+$base-font-weight: 400 !default;
+$base-font-size: 16px !default;
+$base-line-height: 1.5 !default
+
+///////////////////////
+// Effects
+///////////////////////
+$base-animation-duration: 0.2s;
+$base-box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.32);
+$focus-box-shadow: 0 1px 2px 1px rgba(0, 0, 0, 0.4);
+
+$hover-box-shadow: 0 0 4px;
+$account-menu-box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
+$poll-hover-box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+
+///////////////////////
+// Media queries
+///////////////////////
+$mobile-screen-xs-min: "(min-width: 401px)";
+$mobile-screen-xs-max: "(max-width: 400px)";
+$mobile-screen-sm-min: "(min-width: 451px)";
+$mobile-screen-sm-max: "(max-width: 450px)";
+$mobile-screen-md-min: "(min-width: 551px)";
+$mobile-screen-md-max: "(max-width: 550px)";
+$mobile-screen-lg-min: "(min-width: 651px)";
+$mobile-screen-lg-max: "(max-width: 650px)";
+
+$tablet-screen-sm-min: "(min-width: 769px)";
+$tablet-screen-sm-max: "(max-width: 768px)";
+$tablet-screen-md-min: "(min-width: 851px)";
+$tablet-screen-md-max: "(max-width: 850px)";
+$tablet-screen-lg-min: "(min-width: 901px)";
+$tablet-screen-lg-max: "(max-width: 900px)";
+
+$desktop-screen-xs-min: "(min-width: 1025px)";
+$desktop-screen-xs-max: "(max-width: 1024px)";
+$desktop-screen-sm-min: "(min-width: 1201px)";
+$desktop-screen-sm-max: "(max-width: 1200px)";
+$desktop-screen-md-min: "(min-width: 1367px)";
+$desktop-screen-md-max: "(max-width: 1366px)";
+$desktop-screen-lg-min: "(min-width: 1440px)";
+$desktop-screen-lg-max: "(max-width: 1439px)";
+
+///////////////////////
+// Special media queries
+///////////////////////

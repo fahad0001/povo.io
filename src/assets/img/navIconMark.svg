@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
+    <title>navIconAccount Copy</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="navIconAccount-Copy" stroke="#46B4E8">
+            <path d="M18.5,30 L15,17 C8.33333333,17 5,17 5,17 C5,17 3.66666667,21.3333333 1,30 L10,24.5 L18.5,30 Z" id="Oval-6-Copy" stroke-width="2" stroke-linecap="round"></path>
+            <polygon id="Star" fill="#FFFFFF" points="9.8887832 18.1078484 7.75659314 19.2305182 6.32266445 17.2939051 3.91451943 17.380273 3.46285925 15.0132865 1.25572192 14.0462464 1.8757871 11.7176973 0.306808072 9.8887832 1.8757871 8.05986913 1.25572192 5.73132 3.46285925 4.76427985 3.91451943 2.39729338 6.32266445 2.48366131 7.75659314 0.547048194 9.8887832 1.66971798 12.0209733 0.547048194 13.4549019 2.48366131 15.863047 2.39729338 16.3147071 4.76427985 18.5218445 5.73132 17.9017793 8.05986913 19.4707583 9.8887832 17.9017793 11.7176973 18.5218445 14.0462464 16.3147071 15.0132865 15.863047 17.380273 13.4549019 17.2939051 12.0209733 19.2305182"></polygon>
+            <circle id="Oval-6" stroke-width="2" fill="#FFFFFF" stroke-linecap="round" cx="10" cy="10" r="5"></circle>
+        </g>
+    </g>
+</svg>

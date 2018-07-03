@@ -1,0 +1,15 @@
+.default-modal-container {
+  max-width: 392px;
+  padding: 20px;
+  margin: 0 auto;
+
+  @media #{$mobile-screen-lg-min} {
+    padding: 60px 57px 32px;
+  }
+}
+
+.modal-message {
+  text-align: center;
+  font-size: 19px;
+  color: $gray;
+}

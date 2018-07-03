@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
+    <title>navIconRewards</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round">
+        <g id="navIconRewards" stroke="#fff" stroke-width="2">
+            <rect id="Rectangle-2" x="3" y="12" width="14" height="6"></rect>
+            <rect id="Rectangle-2-Copy" x="3" y="6" width="14" height="6"></rect>
+            <rect id="Rectangle-2-Copy-2" transform="translate(13.500000, 12.000000) rotate(-90.000000) translate(-13.500000, -12.000000) " x="7.5" y="8.5" width="12" height="7"></rect>
+            <path d="M14.5809263,5.22656792 C15.2487783,0.512081353 7.00005421,1.15420502 11.1951692,5.91410367" id="Path-3-Copy" transform="translate(12.309824, 3.957052) scale(-1, 1) translate(-12.309824, -3.957052) "></path>
+            <path d="M9.58092629,5.22656792 C10.2487783,0.512081353 2.00005421,1.15420502 6.1951692,5.91410367" id="Path-3"></path>
+        </g>
+    </g>
+</svg>

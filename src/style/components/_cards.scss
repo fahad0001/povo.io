@@ -1,0 +1,41 @@
+.card {
+  // margin: 0 20px 20px 0;
+  box-shadow: $base-box-shadow;
+  border-radius: $base-border-radius;
+  overflow: hidden;
+}
+
+.poll-card {
+  margin: 0 20px 20px 0;
+
+  &__images {
+    background: #fff;
+    display: flex;
+    border-bottom: 1px solid $gray-lighter;
+  }
+
+  &__info {
+    display: flex;
+    flex-direction: column;
+    background: #faffff;
+  }
+
+  &__title {
+    color: $skyblue;
+  }
+
+  &__description {
+    color: $gray;
+  }
+
+  &__footer {
+    color: $gray-light;
+  }
+
+  .author,
+  .date {
+    color: $gray-light;
+  }
+}
+
+

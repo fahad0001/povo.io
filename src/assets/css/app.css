@@ -1,0 +1,24 @@
+@font-face {
+  font-family: 'GillSans';
+  src: url('../fonts/GillSans.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'GillSans';
+  src: url('../fonts/GillSans-SemiBold.woff') format('woff');
+  font-weight: 600;
+  font-style: normal;
+}
+
+* {
+  font-family: 'GillSans', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  color: #000;
+}
+
+select {
+  background: url('../../assets/img/select-arrow.svg') no-repeat;
+}
