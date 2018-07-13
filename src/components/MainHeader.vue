@@ -1,138 +1,3 @@
-<!--<template>-->
-  <!--<header>-->
-    <!--<router-link :to="'/'" class="header__logo-container">-->
-      <!--<img src="../assets/img/povo-logo.svg" alt="Logo" class="header__logo">-->
-    <!--</router-link>-->
-    <!--<div class="header__menu">-->
-
-      <!--<router-link :to="'/poll/create'" class="btn btn_white header__btn">How It Works</router-link>-->
-
-      <!--<div class="header__links">-->
-        <!--<a class="header__link hover-link" @click="showLoginModal()">Login</a>-->
-        <!--<a class="btn btn_blue header__btn hover-link" @click="showSignUpModal()">Sign up</a>-->
-      <!--</div>-->
-    <!--</div>-->
-  <!--</header>-->
-<!--</template>-->
-
-<!--<script>-->
-  <!--// import AuthModals from '@/containers/AuthModals'-->
-  <!--import { mapGetters } from 'vuex'-->
-
-  <!--export default {-->
-    <!--name: 'MainHeader',-->
-    <!--components: {-->
-      <!--// AuthModals-->
-    <!--},-->
-
-    <!--data () {-->
-      <!--return {-->
-        <!--isMenuShow: false-->
-      <!--}-->
-    <!--},-->
-
-    <!--computed: {-->
-      <!--...mapGetters([-->
-        <!--'loginModal',-->
-        <!--'signUpModal'-->
-      <!--])-->
-    <!--},-->
-
-    <!--methods: {-->
-      <!--showMenu () {-->
-        <!--this.$emit('update:isMenuShow', true)-->
-      <!--},-->
-
-      <!--showSignUpModal () {-->
-        <!--this.$store.commit('signUpModal', true)-->
-      <!--},-->
-
-      <!--showLoginModal () {-->
-        <!--this.$store.commit('loginModal', true)-->
-      <!--},-->
-
-      <!--logOut () {-->
-        <!--this.$store.dispatch('logout')-->
-      <!--}-->
-    <!--}-->
-  <!--}-->
-<!--</script>-->
-
-<!--<style lang="scss" scoped>-->
-  <!--/*.how-it-works {*/-->
-    <!--/*height: 22px;	width: 102px;*/-->
-    <!--/*color: #6B808B;*/-->
-    <!--/*font-size: 16px;*/-->
-    <!--/*font-weight: bold;*/-->
-    <!--/*line-height: 22px;*/-->
-  <!--/*}*/-->
-  <!--.header {-->
-    <!--display: flex;-->
-    <!--align-items: center;-->
-    <!--padding: 10px 20px;-->
-    <!--border-bottom: 1px solid $gray-lighter;-->
-    <!--background-color: #FFF;-->
-
-    <!--@media #{$mobile-screen-md-min} {-->
-      <!--padding: 12px 36px;-->
-    <!--}-->
-
-    <!--&__logo {-->
-      <!--width: 86px;-->
-      <!--height: auto;-->
-    <!--}-->
-
-    <!--&__btn {-->
-      <!--@media #{$mobile-screen-md-max} {-->
-        <!--display: none;-->
-      <!--}-->
-    <!--}-->
-
-    <!--&__menu {-->
-      <!--margin-left: auto;-->
-      <!--display: flex;-->
-      <!--align-items: center;-->
-    <!--}-->
-
-    <!--&__links {-->
-      <!--display: flex;-->
-      <!--align-items: center;-->
-    <!--}-->
-
-    <!--&__link {-->
-      <!--margin-left: 25px;-->
-      <!--padding: 10px 0;-->
-      <!--font-weight: 600;-->
-      <!--cursor: pointer;-->
-
-      <!--@media #{$mobile-screen-md-min} {-->
-        <!--margin-left: 52px;-->
-      <!--}-->
-    <!--}-->
-  <!--}-->
-
-  <!--.hamburger {-->
-    <!--width: 21px;-->
-    <!--margin-left: 40px;-->
-    <!--padding: 7px 0;-->
-    <!--cursor: pointer;-->
-
-    <!--&__bar {-->
-      <!--position: relative;-->
-      <!--display: block;-->
-      <!--height: 2px;-->
-      <!--width: 100%;-->
-      <!--background-color: $skyblue;-->
-      <!--border-radius: $base-border-radius;-->
-
-      <!--&:not(:last-child) {-->
-        <!--margin-bottom: 4px;-->
-      <!--}-->
-    <!--}-->
-  <!--}-->
-<!--</style>-->
-
-
 <template>
   <header class="header">
 
@@ -146,11 +11,13 @@
 
         <a class="header__link header__text-color hover-link" @click="showLoginModal()">Login</a>
         <a class="header__link btn btn_lightblue header__btn hover-link" @click="showSignUpModal()">Sign up</a>
-        <div class="hamburger" id="header-trigger" @click="showMenu()">
-          <div class="header__hamburger-show hamburger__container">
-            <div class="hamburger__bar"></div>
-            <div class="hamburger__bar"></div>
-            <div class="hamburger__bar"></div>
+        <div class="hamburger" id="header-trigger">
+          <div class="header__hamburger-show">
+            <button @click="showMenu()" v-bind:class="{'nav-toggle': !isMenuShow,  'nav-toggle opened': isMenuShow}">
+              <span class="bar-top"></span>
+              <span class="bar-mid"></span>
+              <span class="bar-bot"></span>
+            </button>
           </div>
         </div>
       </div>
@@ -181,7 +48,6 @@
         'signUpModal'
       ])
     },
-
     methods: {
       showMenu () {
         this.$emit('update:isMenuShow', true)
@@ -266,23 +132,58 @@
     }
   }
 
-  .hamburger {
-    width: 21px;
-    margin-left: 40px;
-    padding: 7px 0;
+
+  //hamburger
+  .nav-toggle {
+    padding: 10px;
+    background: transparent;
+    border: 1px solid transparent;
+    margin: 7px 0;
+    top: 50%;
+    left: 50%;
     cursor: pointer;
+  }
 
-    &__bar {
-      position: relative;
-      display: block;
-      height: 2px;
-      width: 100%;
-      background-color: $skyblue;
-      border-radius: $base-border-radius;
+  .nav-toggle:focus {
+    outline-width: 0;
+  }
 
-      &:not(:last-child) {
-        margin-bottom: 4px;
-      }
-    }
+  .nav-toggle [class*='bar-'] {
+    background: #46b4e8;
+    display: block;
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+    -webkit-transition: .2s ease all;
+    transition: .2s ease all;
+
+    /*
+     * ENLARGED FOR PRESENTATION
+     * Keep these values at the same proportion
+     * for it to look correct
+    */
+    border-radius: 8px;
+    height: 3px;
+    width: 34px;
+    margin-bottom: 5px;
+  }
+
+  .nav-toggle .bar-bot {
+    margin-bottom: 0;
+  }
+
+  .opened .bar-top {
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+    -webkit-transform-origin: 15% 15%;
+    transform-origin: 15% 15%;
+  }
+  .opened .bar-mid {
+    opacity: 0;
+  }
+  .opened .bar-bot {
+    -webkit-transform: rotate(45deg);
+    transform: rotate(-45deg);
+    -webkit-transform-origin: 15% 95%;
+    transform-origin: 15% 95%;
   }
 </style>
