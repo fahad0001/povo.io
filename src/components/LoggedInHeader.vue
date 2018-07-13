@@ -83,16 +83,14 @@
 
 <style lang="scss" scoped>
   .header {
-    position: relative;
     display: flex;
     align-items: center;
-    height: $header-height;
-    padding: 10px 20px;
+    padding: 25px 20px;
     border-bottom: 1px solid $gray-lighter;
     background: #fff;
 
     @media #{$tablet-screen-lg-min} {
-      padding: 12px 37px;
+      padding: 25px 128px;
     }
 
     &__logo-container {
@@ -120,8 +118,8 @@
     }
 
     &__link {
-      margin-left: 52px;
-      padding: 10px 0;
+      margin-left: 25px;
+      padding: 20px 15px;
       font-weight: 600;
       cursor: pointer;
 
