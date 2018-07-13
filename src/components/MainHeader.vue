@@ -72,16 +72,16 @@
   .header {
     display: flex;
     align-items: center;
-    padding: 38px 20px;
+    padding: 25px 20px;
     border-bottom: 1px solid $gray-lighter;
     background-color: #FFF;
 
     @media #{$mobile-screen-lg-min} {
-      padding: 38px 28px;
+      padding: 25px 28px;
     }
 
     @media #{$tablet-screen-sm-min} {
-      padding: 38px 120px;
+      padding: 25px 120px;
     }
 
     &__logo {
