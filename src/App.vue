@@ -16,6 +16,7 @@
       <main-header
         :isMenuShow.sync="isMenuShow"
       ></main-header>
+      <main-header-menu :isMenuShow.sync="isMenuShow"></main-header-menu>
       <router-view></router-view>
     </main-layout>
 
@@ -25,6 +26,7 @@
 
 <script>
   import MainHeader from '@/components/MainHeader'
+  import MainHeaderMenu from '@/components/MainHeaderMenu'
   import LoggedInHeader from '@/components/LoggedInHeader'
   import AccountMenu from '@/components/AccountMenu'
   import Loader from '@/components/shared/Loader'
@@ -38,6 +40,7 @@
     name: 'app',
     components: {
       MainHeader,
+      MainHeaderMenu,
       LoggedInHeader,
       AccountMenu,
       LoggedInLayout,
