@@ -13,6 +13,9 @@
         <router-link :to="'/about'" class="menu__link logout">How It Works</router-link>
       </li>
       <li>
+        <a class="menu__link logout" @click="showLoginModal()">Login up</a>
+      </li>
+      <li>
         <a class="menu__link logout" @click="showSignUpModal()">Sign up</a>
       </li>
     </ul>
@@ -35,17 +38,19 @@
       isMenuShow: false
     },
 
+    computed: {
+      ...mapGetters([
+        'loginModal',
+        'signUpModal'
+      ])
+    },
     methods: {
       hideMenu () {
         this.$emit('update:isMenuShow', false)
       },
-
-      computed: {
-        ...mapGetters([
-          'signUpModal'
-        ])
+      showLoginModal () {
+        this.$store.commit('loginModal', true)
       },
-
       showSignUpModal () {
         this.$store.commit('signUpModal', true)
       }

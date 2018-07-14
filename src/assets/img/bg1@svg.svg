@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="224px" height="426px" viewBox="0 0 224 426" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>8A43B50D-B595-42BA-A78F-8DE8DEF7E635@svg</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <linearGradient x1="69.9326984%" y1="1.1643023%" x2="78.974142%" y2="66.8902716%" id="linearGradient-1">
+            <stop stop-color="#FFFFFF" offset="0%"></stop>
+            <stop stop-color="#FFFFFF" stop-opacity="0" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Design" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.149999991">
+        <g id="Homepage" transform="translate(0.000000, -120.000000)" fill="url(#linearGradient-1)" fill-rule="nonzero">
+            <g id="Hero" transform="translate(0.000000, 120.000000)">
+                <g id="Fill-1-+-Fill-1-Copy-+-Fill-1-Copy-2-Mask">
+                    <polygon id="bg1" points="94.6616876 0 -173 619 -43.648741 619 224 0"></polygon>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

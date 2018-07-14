@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="134px" height="122px" viewBox="0 0 134 122" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>E7C1DEA3-B83A-4662-A910-E211F85E918C@svg</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="114.509804" height="71.5686275" rx="4"></rect>
+        <rect id="path-3" x="0" y="0" width="18.6078431" height="14.3137255" rx="2"></rect>
+    </defs>
+    <g id="Design" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Homepage" transform="translate(-1677.000000, -217.000000)">
+            <g id="Hero" transform="translate(0.000000, 120.000000)">
+                <g id="card" transform="translate(1743.845499, 157.975953) rotate(30.000000) translate(-1743.845499, -157.975953) translate(1684.845499, 120.475953)">
+                    <rect id="shadow" fill-opacity="0.200000018" fill="#000000" style="mix-blend-mode: overlay;" x="3.43137255" y="3.43137255" width="114.509804" height="71.5686275" rx="4"></rect>
+                    <mask id="mask-2" fill="white">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <use id="Mask" fill="#2793C4" xlink:href="#path-1"></use>
+                    <ellipse id="Oval-5" fill-opacity="0.0700000003" fill="#000000" style="mix-blend-mode: overlay;" mask="url(#mask-2)" cx="20.0392157" cy="35.7843137" rx="51.5294118" ry="52.9607843"></ellipse>
+                    <rect id="Rectangle-4" fill-opacity="0.2" fill="#FFFFFF" mask="url(#mask-2)" x="11.4509804" y="42.9411765" width="14.3137255" height="5.7254902" rx="2.8627451"></rect>
+                    <rect id="Rectangle-4" fill-opacity="0.2" fill="#FFFFFF" mask="url(#mask-2)" x="35.7843137" y="42.9411765" width="14.3137255" height="5.7254902" rx="2.8627451"></rect>
+                    <rect id="Rectangle-4" fill-opacity="0.2" fill="#FFFFFF" mask="url(#mask-2)" x="62.9803922" y="42.9411765" width="14.3137255" height="5.7254902" rx="2.8627451"></rect>
+                    <rect id="Rectangle-4" fill-opacity="0.2" fill="#FFFFFF" mask="url(#mask-2)" x="88.745098" y="42.9411765" width="14.3137255" height="5.7254902" rx="2.8627451"></rect>
+                    <rect id="Rectangle-4-Copy" fill-opacity="0.2" fill="#FFFFFF" mask="url(#mask-2)" x="11.4509804" y="55.8235294" width="17.1764706" height="2.8627451" rx="1.43137255"></rect>
+                    <rect id="Rectangle-4-Copy" fill-opacity="0.2" fill="#FFFFFF" mask="url(#mask-2)" x="31.4901961" y="55.8235294" width="25.7647059" height="2.8627451" rx="1.43137255"></rect>
+                    <rect id="Rectangle-4-Copy" fill-opacity="0.2" fill="#FFFFFF" mask="url(#mask-2)" x="90.1764706" y="55.8235294" width="12.8823529" height="2.8627451" rx="1.43137255"></rect>
+                    <g id="electronic" mask="url(#mask-2)">
+                        <g transform="translate(14.313725, 15.745098)">
+                            <mask id="mask-4" fill="white">
+                                <use xlink:href="#path-3"></use>
+                            </mask>
+                            <use id="Mask" stroke="none" fill="#46B4E8" fill-rule="evenodd" xlink:href="#path-3"></use>
+                            <rect id="Rectangle-5" stroke="none" fill="#6DCFFF" fill-rule="evenodd" mask="url(#mask-4)" x="-1.43137255" y="1.43137255" width="5.7254902" height="2.8627451" rx="1.43137255"></rect>
+                            <rect id="Rectangle-5-Copy-3" stroke="none" fill="#6DCFFF" fill-rule="evenodd" mask="url(#mask-4)" x="5.7254902" y="1.43137255" width="14.3137255" height="2.8627451" rx="1.43137255"></rect>
+                            <rect id="Rectangle-5-Copy-4" stroke="none" fill="#6DCFFF" fill-rule="evenodd" mask="url(#mask-4)" x="12.8823529" y="7.15686275" width="7.15686275" height="5.7254902" rx="2.8627451"></rect>
+                            <rect id="Rectangle-5-Copy-5" stroke="none" fill="#6DCFFF" fill-rule="evenodd" mask="url(#mask-4)" x="5.7254902" y="7.15686275" width="5.7254902" height="5.7254902" rx="2.8627451"></rect>
+                            <rect id="Rectangle-5-Copy-5" stroke="none" fill="#6DCFFF" fill-rule="evenodd" mask="url(#mask-4)" x="5.7254902" y="1.43137255" width="5.7254902" height="5.7254902" rx="2.8627451"></rect>
+                            <rect id="Rectangle-5-Copy" stroke="none" fill="#6DCFFF" fill-rule="evenodd" mask="url(#mask-4)" x="-1.43137255" y="5.7254902" width="5.7254902" height="2.8627451" rx="1.43137255"></rect>
+                            <rect id="Rectangle-5-Copy-2" stroke="none" fill="#6DCFFF" fill-rule="evenodd" mask="url(#mask-4)" x="-1.43137255" y="10.0196078" width="5.7254902" height="2.8627451" rx="1.43137255"></rect>
+                        </g>
+                    </g>
+                    <circle id="Oval-2" fill="#F57576" mask="url(#mask-2)" cx="90.1764706" cy="15.745098" r="7.15686275"></circle>
+                    <circle id="Oval-2" fill="#FF9D66" mask="url(#mask-2)" cx="100.196078" cy="15.745098" r="7.15686275"></circle>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
