@@ -28,7 +28,7 @@
 <script>
   import MainHeader from '@/components/MainHeader'
   import MainHeaderMenu from '@/components/MainHeaderMenu'
-  import LandingPage from '@/components/LandingPage'
+  import LandingPage from '@/components/HomePage/LandingPage'
   import LoggedInHeader from '@/components/LoggedInHeader'
   import AccountMenu from '@/components/AccountMenu'
   import Loader from '@/components/shared/Loader'
