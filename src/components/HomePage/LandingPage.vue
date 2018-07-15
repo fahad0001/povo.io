@@ -60,6 +60,7 @@
 <style lang="scss" scoped>
   [id="landing-page"] {
     background: #46B4E8;
+    position: relative;
     height: 100vh;
 
     .content-wrapper {
@@ -78,14 +79,14 @@
 
         &__coin {
           position: absolute;
-          top: 20%;
+          top: 10%;
           left: 2%;
           width: 7%;
         }
 
         &__backcard {
           position: absolute;
-          bottom: 20%;
+          bottom: 15%;
           left: 10%;
           width: 9%;
         }
@@ -191,20 +192,14 @@
         }
         &__card {
           position: absolute;
-          top: 21%;
+          top: 11%;
           right: 42px;
           width: 10%;
         }
         &__coin {
           position: absolute;
-          bottom: 10%;
+          bottom: 0;
           width: 6%;
-
-          @media #{$mobile-screen-lg-min} { bottom: 9%}
-          @media #{$tablet-screen-lg-min} { bottom: 8%}
-          @media #{$desktop-screen-lg-min} { bottom: 8%}
-
-
         }
       }
 
