@@ -3,19 +3,19 @@
     <div class="content-wrapper">
       <div class="first-section">
         <div class="first-section__bar">
-          <img src="../assets/img/bg1@svg.svg" width="100%" alt="Logo">
+          <img src="./../../assets/img/bg1@svg.svg" width="100%" alt="Logo">
         </div>
         <div class="first-section__coin">
-          <img src="../assets/img/coins1@svg.svg" width="100%" alt="Logo">
+          <img src="./../../assets/img/coins1@svg.svg" width="100%" alt="Logo">
         </div>
         <div class="first-section__backcard">
-          <img src="../assets/img/card back@svg.svg" width="100%" alt="Logo">
+          <img src="./../../assets/img/card back@svg.svg" width="100%" alt="Logo">
         </div>
       </div>
       <div class="middle-section">
         <div class="middle-section__top">
           <div class="middle-section__top__img">
-            <img src="../assets/img/bf2@svg.svg" width="22%" alt="Logo">
+            <img src="./../../assets/img/bf2@svg.svg" width="22%" alt="Logo">
           </div>
         </div>
         <div class="middle-section__middle">
@@ -34,19 +34,19 @@
         </div>
         <div class="middle-section__bottom">
           <div class="middle-section__bottom__img">
-            <img src="../assets/img/bg5@svg.svg" width="45%" alt="Logo">
+            <img src="./../../assets/img/bg5@svg.svg" width="45%" alt="Logo">
           </div>
         </div>
       </div>
       <div class="last-section">
         <div class="last-section__bar">
-          <img src="../assets/img/bg3@svg.svg" width="100%" alt="Logo" @click="handleLogoClick">
+          <img src="./../../assets/img/bg3@svg.svg" width="100%" alt="Logo" @click="handleLogoClick">
         </div>
         <div class="last-section__card">
-          <img src="../assets/img/card@svg.svg" width="100%" alt="Logo">
+          <img src="./../../assets/img/card@svg.svg" width="100%" alt="Logo">
         </div>
         <div class="last-section__coin">
-          <img src="../assets/img/coins2@svg.svg" width="100%" alt="Logo">
+          <img src="./../../assets/img/coins2@svg.svg" width="100%" alt="Logo">
         </div>
       </div>
     </div>
