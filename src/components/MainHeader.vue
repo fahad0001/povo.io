@@ -9,15 +9,16 @@
       <div class="header__links">
         <router-link :to="'/about'" class="header__btn header__text-color">How It Works</router-link>
 
-        <a class="header__link header__text-color hover-link" @click="showLoginModal()">Login</a>
+        <a class="header__link header__text-color header__btn hover-link" @click="showLoginModal()">Login</a>
         <a class="header__link btn btn_lightblue header__btn hover-link" @click="showSignUpModal()">Sign up</a>
         <div class="hamburger" id="header-trigger">
-          <div class="header__hamburger-show">
-            <button @click="showMenu()" v-bind:class="{'nav-toggle': !isMenuShow,  'nav-toggle opened': isMenuShow}">
-              <span class="bar-top"></span>
-              <span class="bar-mid"></span>
-              <span class="bar-bot"></span>
-            </button>
+          <div @click="showMenu()" class="header__hamburger-show">
+            <img src="../assets/img/hamburger.svg" alt="Logo" class="nav-toggle">
+            <!--<button @click="showMenu()" v-bind:class="{'nav-toggle': !isMenuShow,  'nav-toggle opened': isMenuShow}">-->
+              <!--<span class="bar-top"></span>-->
+              <!--<span class="bar-mid"></span>-->
+              <!--<span class="bar-bot"></span>-->
+            <!--</button>-->
           </div>
         </div>
       </div>
@@ -97,6 +98,7 @@
 
     &__hamburger-show {
       @media #{$mobile-screen-sm-max} {
+        padding-top:5px;
         display: block;
       }
 
@@ -135,7 +137,7 @@
 
   //hamburger
   .nav-toggle {
-    padding: 10px;
+    padding: 18px 20px 8px 0;
     background: transparent;
     border: 1px solid transparent;
     margin: 7px 0;

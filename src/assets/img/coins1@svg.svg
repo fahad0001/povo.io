@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="105px" height="108px" viewBox="0 0 105 108" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>1A185968-DD39-4043-A076-78E26AD7C3F1@svg</title>
+    <desc>Created with sketchtool.</desc>
+    <defs></defs>
+    <g id="Design" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Homepage" transform="translate(-22.000000, -199.000000)">
+            <g id="Hero" transform="translate(0.000000, 120.000000)">
+                <g id="coins1" transform="translate(22.000000, 79.000000)">
+                    <g id="coin1" transform="translate(60.000000, 30.000000)">
+                        <circle id="Oval-11" fill-opacity="0.3" fill="#000000" style="mix-blend-mode: overlay;" cx="24" cy="27" r="21"></circle>
+                        <circle id="Oval-11" fill="#F09A28" cx="22" cy="23" r="21"></circle>
+                        <circle id="Oval-11" fill="#FDD659" cx="21" cy="21" r="21"></circle>
+                        <circle id="Oval-11" stroke="#F09A28" cx="21" cy="21" r="15"></circle>
+                    </g>
+                    <g id="coin2" transform="translate(10.000000, 0.000000)">
+                        <circle id="Oval-11" fill-opacity="0.3" fill="#000000" style="mix-blend-mode: overlay;" cx="24" cy="27" r="21"></circle>
+                        <circle id="Oval-11" fill="#F09A28" cx="22" cy="23" r="21"></circle>
+                        <circle id="Oval-11" fill="#FDD659" cx="21" cy="21" r="21"></circle>
+                        <circle id="Oval-11" stroke="#F09A28" cx="21" cy="21" r="15"></circle>
+                    </g>
+                    <g id="coin3" transform="translate(0.000000, 60.000000)">
+                        <circle id="Oval-11" fill-opacity="0.3" fill="#000000" style="mix-blend-mode: overlay;" cx="24" cy="27" r="21"></circle>
+                        <circle id="Oval-11" fill="#F09A28" cx="22" cy="23" r="21"></circle>
+                        <circle id="Oval-11" fill="#FDD659" cx="21" cy="21" r="21"></circle>
+                        <circle id="Oval-11" stroke="#F09A28" cx="21" cy="21" r="15"></circle>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
