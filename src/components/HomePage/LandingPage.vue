@@ -198,7 +198,9 @@
         }
         &__coin {
           position: absolute;
+          z-index: 999;
           bottom: 0;
+          margin-bottom: -3%;
           width: 6%;
         }
       }
