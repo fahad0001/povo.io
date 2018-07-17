@@ -18,6 +18,7 @@
       ></main-header>
       <main-header-menu :isMenuShow.sync="isMenuShow"></main-header-menu>
       <landing-page></landing-page>
+      <HowItWorks></HowItWorks>
       <!--<router-view></router-view>-->
     </main-layout>
 
@@ -29,18 +30,18 @@
   import MainHeader from '@/components/MainHeader'
   import MainHeaderMenu from '@/components/MainHeaderMenu'
   import LandingPage from '@/components/LandingPage'
+  import HowItWorks from '@/components/HowItWorks'
   import LoggedInHeader from '@/components/LoggedInHeader'
   import AccountMenu from '@/components/AccountMenu'
   import Loader from '@/components/shared/Loader'
-
   import LoggedInLayout from '@/layouts/LoggedInLayout'
   import MainLayout from '@/layouts/MainLayout'
-
   import {mapGetters} from 'vuex'
 
   export default {
     name: 'app',
     components: {
+      HowItWorks,
       MainHeader,
       MainHeaderMenu,
       LandingPage,
