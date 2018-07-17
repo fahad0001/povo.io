@@ -18,8 +18,8 @@
       ></main-header>
       <main-header-menu :isMenuShow.sync="isMenuShow"></main-header-menu>
       <landing-page></landing-page>
-      <HowItWorks></HowItWorks>
       <about-page></about-page>
+      <HowItWorks></HowItWorks>
       <br/>
       <!--<router-view></router-view>-->
     </main-layout>
@@ -31,7 +31,7 @@
 <script>
   import MainHeader from '@/components/MainHeader'
   import MainHeaderMenu from '@/components/MainHeaderMenu'
-  import HowItWorks from '@/components/HowItWorks'
+  import HowItWorks from '@/components/HomePage/HowItWorks'
   import LandingPage from '@/components/HomePage/LandingPage'
   import AboutPage from '@/components/HomePage/AboutPage'
   import LoggedInHeader from '@/components/LoggedInHeader'
