@@ -19,7 +19,7 @@
       <main-header-menu :isMenuShow.sync="isMenuShow"></main-header-menu>
       <landing-page></landing-page>
       <about-page></about-page>
-      <br/>
+      <reward-page></reward-page>
       <!--<router-view></router-view>-->
     </main-layout>
 
@@ -32,6 +32,7 @@
   import MainHeaderMenu from '@/components/MainHeaderMenu'
   import LandingPage from '@/components/HomePage/LandingPage'
   import AboutPage from '@/components/HomePage/AboutPage'
+  import RewardPage from '@/components/HomePage/RewardPage'
   import LoggedInHeader from '@/components/LoggedInHeader'
   import AccountMenu from '@/components/AccountMenu'
   import Loader from '@/components/shared/Loader'
@@ -48,6 +49,7 @@
       MainHeaderMenu,
       LandingPage,
       AboutPage,
+      RewardPage,
       LoggedInHeader,
       AccountMenu,
       LoggedInLayout,
@@ -127,4 +129,3 @@
     overflow-x: hidden;
   }
 </style>
-
