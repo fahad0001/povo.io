@@ -20,6 +20,7 @@
       <landing-page></landing-page>
       <about-page></about-page>
       <reward-page></reward-page>
+      <main-footer></main-footer>
       <!--<router-view></router-view>-->
     </main-layout>
 
@@ -36,6 +37,7 @@
   import LoggedInHeader from '@/components/LoggedInHeader'
   import AccountMenu from '@/components/AccountMenu'
   import Loader from '@/components/shared/Loader'
+  import MainFooter from '@/components/HomeFooter'
 
   import LoggedInLayout from '@/layouts/LoggedInLayout'
   import MainLayout from '@/layouts/MainLayout'
@@ -50,6 +52,7 @@
       LandingPage,
       AboutPage,
       RewardPage,
+      MainFooter,
       LoggedInHeader,
       AccountMenu,
       LoggedInLayout,
