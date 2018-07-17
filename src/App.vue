@@ -19,6 +19,8 @@
       <main-header-menu :isMenuShow.sync="isMenuShow"></main-header-menu>
       <landing-page></landing-page>
       <HowItWorks></HowItWorks>
+      <about-page></about-page>
+      <br/>
       <!--<router-view></router-view>-->
     </main-layout>
 
@@ -29,8 +31,9 @@
 <script>
   import MainHeader from '@/components/MainHeader'
   import MainHeaderMenu from '@/components/MainHeaderMenu'
-  import LandingPage from '@/components/LandingPage'
   import HowItWorks from '@/components/HowItWorks'
+  import LandingPage from '@/components/HomePage/LandingPage'
+  import AboutPage from '@/components/HomePage/AboutPage'
   import LoggedInHeader from '@/components/LoggedInHeader'
   import AccountMenu from '@/components/AccountMenu'
   import Loader from '@/components/shared/Loader'
@@ -45,6 +48,7 @@
       MainHeader,
       MainHeaderMenu,
       LandingPage,
+      AboutPage,
       LoggedInHeader,
       AccountMenu,
       LoggedInLayout,
