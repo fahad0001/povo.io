@@ -20,7 +20,6 @@
       <landing-page></landing-page>
       <about-page></about-page>
       <HowItWorks></HowItWorks>
-      <br/>
       <reward-page></reward-page>
       <main-footer></main-footer>
       <!--<router-view></router-view>-->

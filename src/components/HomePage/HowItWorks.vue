@@ -1,5 +1,6 @@
 <template>
   <div class="how-it-works">
+    <span class="walletandcoins"><img src="./../../assets/img/wallet and coins@2x.png" width="10%" alt="Logo"></span>
   <div class="grid-container">
     <div class="item-1">How It Works?</div>
     <div class="item-2">1<span class="icon"><img src="./../../assets/img/polls@svg.svg" width="35%" alt="Logo"></span></div>
@@ -20,6 +21,7 @@
       You’re looking to shop. Buy the latest products through Povo and earn points on your purchases.</div>
 
   </div>
+    <span class="tickets"><img src="./../../assets/img/tickets.png" width="6%" alt="Logo"></span>
   </div>
 </template>
 
@@ -31,7 +33,23 @@
 
 <style scoped>
 
+  .walletandcoins{
+
+    position: relative;
+    top: 134px;
+    left: 3%;
+
+  }
+  .tickets{
+    position: relative;
+    left: 90%;
+    bottom: 48px;
+  }
   .how-it-works{
+    /*height: 1121px;*/
+
+    background-color: #272E31;
+
 
   }
   .icon{
@@ -52,7 +70,6 @@
     display: grid;
     grid-template-columns: 33% 33% 33%;
     grid-template-rows: auto auto auto auto ;
-    background-color: #272E31;
     /*grid-column-gap: 1px;*/
     grid-gap: 25px 50px;
     padding: 10% 18% 10% 12%;
