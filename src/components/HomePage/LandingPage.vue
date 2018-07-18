@@ -26,10 +26,10 @@
             Povo is the only online community that rewards your feedback with free gift cards to your favourite retailers.
           </div>
           <div class="middle-section__middle__button1">
-            <button class="btn btn_white">Sign up today for free</button>
+            <button @click="showSignUpModal()" class="btn btn_white">Sign up today for free</button>
           </div>
           <div class="middle-section__middle__button2">
-            <button class="btn btn_lightblue-outline">Watch the video</button>
+            <button class="btn btn_lightblue-outline">Watch the video <span class="play-icon"><i class="fa">&#xf04b;</i></span></button>
           </div>
         </div>
         <div class="middle-section__bottom">
@@ -50,16 +50,33 @@
         </div>
       </div>
     </div>
+    <auth-modals></auth-modals>
   </div>
 </template>
 <script>
+  import AuthModals from '@/containers/AuthModals'
+  import { mapGetters } from 'vuex'
+
   export default {
-    name: 'LandingPage'
+    name: 'LandingPage',
+    components: {
+      AuthModals
+    },
+    computed: {
+      ...mapGetters([
+        'signUpModal'
+      ])
+    },
+    methods: {
+      showSignUpModal () {
+        this.$store.commit('signUpModal', true)
+      }
+    }
   }
 </script>
 <style lang="scss" scoped>
   [id="landing-page"] {
-    background: #46B4E8;
+    background: #309ce0;
     position: relative;
     height: 100vh;
 
@@ -128,7 +145,7 @@
             }
 
             @media #{$desktop-screen-lg-min} {
-              margin-top: 210px;
+              margin-top: 190px;
               font-size: 58px;
             }
           }
@@ -162,8 +179,26 @@
             margin-top: 30px;
 
             button {
+              position: relative;
               padding: 19px 88px 19px 48px;
               border: 1px solid #FFFFFF;
+              color: white;
+
+              > .play-icon {
+                position: absolute;
+                background: #64B5F3;
+                right: 1%;
+                top: 6%;
+                width: 50px;
+                height: 50px;
+                padding: 16px 22px;
+                border-radius: 50px;
+
+                > i {
+                  padding-right: 5px;
+                  color: white;
+                }
+              }
             }
           }
         }
@@ -179,6 +214,7 @@
 
           &__img {
             align-self: flex-end;
+            text-align: center;
             width: 35%;
           }
         }
