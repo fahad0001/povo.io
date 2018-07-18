@@ -21,6 +21,8 @@
       <about-page></about-page>
       <HowItWorks></HowItWorks>
       <br/>
+      <reward-page></reward-page>
+      <main-footer></main-footer>
       <!--<router-view></router-view>-->
     </main-layout>
 
@@ -34,9 +36,11 @@
   import HowItWorks from '@/components/HomePage/HowItWorks'
   import LandingPage from '@/components/HomePage/LandingPage'
   import AboutPage from '@/components/HomePage/AboutPage'
+  import RewardPage from '@/components/HomePage/RewardPage'
   import LoggedInHeader from '@/components/LoggedInHeader'
   import AccountMenu from '@/components/AccountMenu'
   import Loader from '@/components/shared/Loader'
+  import MainFooter from '@/components/HomeFooter'
   import LoggedInLayout from '@/layouts/LoggedInLayout'
   import MainLayout from '@/layouts/MainLayout'
   import {mapGetters} from 'vuex'
@@ -49,6 +53,8 @@
       MainHeaderMenu,
       LandingPage,
       AboutPage,
+      RewardPage,
+      MainFooter,
       LoggedInHeader,
       AccountMenu,
       LoggedInLayout,
@@ -128,4 +134,3 @@
     overflow-x: hidden;
   }
 </style>
-

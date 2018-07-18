@@ -113,7 +113,7 @@
 
 
           &__heading {
-            margin-top: 110px;
+            margin-top: 140px;
             color: white;
             font-size: 58px;
 
@@ -128,7 +128,7 @@
             }
 
             @media #{$desktop-screen-lg-min} {
-              margin-top: 115px;
+              margin-top: 210px;
               font-size: 58px;
             }
           }

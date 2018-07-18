@@ -1,7 +1,10 @@
 <template>
   <footer class="footer">
+    <router-link :to="'/'" class="footer-logo-padding header__logo-container">
+      <img src="../assets/img/povo-logo.svg" alt="Logo" class="header__logo">
+    </router-link>
     <div class="footer__copyright">
-      © Povo 2017
+      © Copyright 2018, Povo.io
     </div>
     <ul class="footer__menu">
       <li class="footer__menu-item">
@@ -36,8 +39,17 @@
     background: #fff;
     border-top: 1px solid $gray-lighter;
 
+    > .footer-logo-padding {
+      padding-bottom: 7px;
+    }
+
+    &__copyright {
+      padding-left: 45px;
+      font-size: 13px;
+    }
+
     @media #{$tablet-screen-lg-min} {
-      padding: 12px 37px;
+      padding: 30px 120px;
     }
 
     &__menu {

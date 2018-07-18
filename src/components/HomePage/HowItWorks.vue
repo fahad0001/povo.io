@@ -1,8 +1,8 @@
 <template>
-  <div>
+  <div class="how-it-works">
   <div class="grid-container">
     <div class="item-1">How It Works?</div>
-    <div class="item-2">1<span class="icon"><img src="./../../assets/img/polls.png" width="35%" alt="Logo"></span></div>
+    <div class="item-2">1<span class="icon"><img src="./../../assets/img/polls@svg.svg" width="35%" alt="Logo"></span></div>
     <div class="item-3">2<span class="icon"><img src="./../../assets/img/cursor.png" width="35%" alt="Logo"></span></div>
     <div class="item-4">You have opinions. Why shouldn’t you be rewarded for them? At Povo, there are lots of way to earn points towards your next reward.</div>
     <div class="item-5"><div class="heading">Create your own polls</div>
@@ -31,6 +31,9 @@
 
 <style scoped>
 
+  .how-it-works{
+
+  }
   .icon{
     position: relative;
 
