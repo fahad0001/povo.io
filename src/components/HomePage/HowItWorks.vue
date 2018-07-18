@@ -71,8 +71,8 @@
     grid-template-columns: 33% 33% 33%;
     grid-template-rows: auto auto auto auto ;
     /*grid-column-gap: 1px;*/
-    grid-gap: 25px 50px;
-    padding: 10% 18% 10% 12%;
+    grid-gap: 5px 50px;
+    padding: 5% 18% 5% 12%;
 
 
 
@@ -103,13 +103,14 @@
     font-weight: bold;
     line-height: 144px;
 
+
   }
 
 
   .item-1{
     color: #FFFFFF;
     font-family: "F37 Ginger";
-    font-size: 45px;
+    font-size: 40px;
     font-weight: bold;
     line-height: 64px;
     margin-top: 100px;
@@ -118,7 +119,7 @@
     opacity: 0.8;
     color: #FFFFFF;
     font-family: "F37 Ginger";
-    font-size: 18px;
+    font-size: 16px;
     line-height: 30px;
     margin-top: 50px;
 
@@ -128,35 +129,35 @@
 
     color: rgba(255,255,255,0.8);
     font-family: "F37 Ginger";
-    font-size: 18px;
+    font-size: 16px;
     line-height: 30px;
   }
   .item-6 {
 
     color: rgba(255,255,255,0.8);
     font-family: "F37 Ginger";
-    font-size: 18px;
+    font-size: 16px;
     line-height: 30px;
   }
   .item-10 {
 
     color: rgba(255,255,255,0.8);
     font-family: "F37 Ginger";
-    font-size: 18px;
+    font-size: 16px;
     line-height: 30px;
   }
   .item-11 {
 
     color: rgba(255,255,255,0.8);
     font-family: "F37 Ginger";
-    font-size: 19px;
+    font-size: 16px;
     line-height: 30px;
   }
   .item-12 {
 
     color: rgba(255,255,255,0.8);
     font-family: "F37 Ginger";
-    font-size: 18px;
+    font-size: 16px;
     line-height: 30px;
   }
   .item-4,.item-5,.item-6,.item-10,.item-11,.item-12{
