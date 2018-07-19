@@ -16,12 +16,16 @@
       <main-header
         :isMenuShow.sync="isMenuShow"
       ></main-header>
-      <main-header-menu :isMenuShow.sync="isMenuShow"></main-header-menu>
-      <landing-page></landing-page>
-      <about-page></about-page>
-      <reward-page></reward-page>
-      <main-footer></main-footer>
-      <!--<router-view></router-view>-->
+      <div v-if="$route.fullPath==='/'">
+        <main-header-menu :isMenuShow.sync="isMenuShow"></main-header-menu>
+        <landing-page></landing-page>
+        <about-page></about-page>
+        <reward-page></reward-page>
+        <main-footer></main-footer>
+      </div>
+      <div v-else>
+        <router-view></router-view>
+      </div>
     </main-layout>
 
 
