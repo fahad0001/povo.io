@@ -12,7 +12,7 @@
             Reward yourself while reinventing the online shopping experience.
           </div>
           <div class="button">
-            <button class="btn btn_white">Sign up today for free</button>
+            <button @click="showSignUpModal()" class="btn btn_white">Sign up today for free</button>
           </div>
         </div>
         <div class="bar">
@@ -31,8 +31,24 @@
   </div>
 </template>
 <script>
+  import AuthModals from '@/containers/AuthModals'
+  import { mapGetters } from 'vuex'
+
   export default {
-    name: 'RewardPage'
+    name: 'RewardPage',
+    components: {
+      AuthModals
+    },
+    computed: {
+      ...mapGetters([
+        'signUpModal'
+      ])
+    },
+    methods: {
+      showSignUpModal () {
+        this.$store.commit('signUpModal', true)
+      }
+    }
   }
 </script>
 <style lang="scss" scoped>
