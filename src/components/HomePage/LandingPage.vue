@@ -207,7 +207,7 @@
               color: white;
 
               @media #{$mobile-screen-lg-max} {
-                padding: 19px 65px 19px 20px;
+                padding: 18px 65px 18px 15px;
               }
 
               > .play-icon {
