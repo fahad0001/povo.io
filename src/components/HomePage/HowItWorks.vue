@@ -2,20 +2,20 @@
   <div class="how-it-works">
     <span id="walletandcoins"><img src="./../../assets/img/wallet and coins@2x.png" width="10%" alt="Logo"></span>
     <span id="darkbg1"><img src="./../../assets/img/darkbg1.png" width="10%" alt="Logo"></span>
-    <span id="darkbg2"><img src="./../../assets/img/darkbg1.png" width="10%"   alt="Logo"></span>
+    <span id="darkbg2"><img src="./../../assets/img/darkbg1.png" width="10%"    alt="Logo"></span>
 
     <div class="grid-container">
     <div class="item-1">How It Works?</div>
-    <div class="item-2">1<span class="number-icons"><img src="./../../assets/img/polls@svg.svg" width="35%" alt="Logo"></span></div>
-    <div class="item-3">2<span class="number-icons"><img src="./../../assets/img/cursor.png" width="35%" alt="Logo"></span></div>
+      <div class="item-2"><span class="number">1</span><span class="number-icons"><img src="./../../assets/img/polls@svg.svg" width="6%" alt="Logo"></span></div>
+    <div class="item-3"><span class="number">2</span><span class="number-icons"><img src="./../../assets/img/cursor.png" width="6%" alt="Logo"></span></div>
     <div class="item-4">You have opinions. Why shouldn’t you be rewarded for them? At Povo, there are lots of way to earn points towards your next reward.</div>
     <div class="item-5"><div class="text-headings">Create your own polls</div>
       You’ve got a question. Ask fellow shoppers for their opinions on the latest trends, clothes, and accessories.</div>
     <div class="item-6"><div class="text-headings">Give us your two cents</div>
       You’ve got the trendy touch. Vote on the latest polls to help other online shoppers find the right product for them.</div>
-    <div class="item-7">3<span class="number-icons"><img src="./../../assets/img/polls.png" width="35%" alt="Logo"></span></div>
-    <div class="item-8">4<span class="number-icons"><img src="./../../assets/img/like.png" width="35%" alt="Logo"></span></div>
-    <div class="item-9">5<span class="number-icons"><img src="./../../assets/img/shopping.png" width="35%" alt="Logo"></span></div>
+    <div class="item-7"><span class="number">3</span><span class="number-icons"><img src="./../../assets/img/polls.png" width="6%" alt="Logo"></span></div>
+    <div class="item-8"><span class="number">4</span><span class="number-icons"><img src="./../../assets/img/like.png" width="6%" alt="Logo"></span></div>
+    <div class="item-9"><span class="number">5</span><span class="number-icons"><img src="./../../assets/img/shopping.png" width="6%" alt="Logo"></span></div>
     <div class="item-10"><div class="text-headings">Leave a comment</div>
       You’ve got more to say. Offer some helpful insights on polls to inspire your peers to make the perfect purchase.</div>
     <div class="item-11"><div class="text-headings">Get your comment Super Liked</div>
@@ -35,7 +35,7 @@
     }
 </script>
 
-<style scoped>
+<style lang="scss" scoped>
 
   #darkbg1{
     position: relative;
@@ -63,8 +63,7 @@
   }
   .number-icons{
     position: relative;
-
-    bottom: 140px;
+    right: 26%;
   }
   .text-headings{
     color: #FFFFFF;
@@ -80,14 +79,14 @@
     /*grid-column-gap: 1px;*/
     grid-gap: 5px 50px;
     margin: 5% 18% 5% 12%;
-      }
+  }
 
   /*Numbers in second row*/
   .item-7,.item-8,.item-9{
     align-self: end;
   }
   /*Numbers*/
-  .item-2, .item-3, .item-7, .item-8, .item-9{
+  .number{
     height: 144px;
     width: 58px;
     opacity: 0.1;
@@ -96,7 +95,6 @@
     font-size: 144px;
     font-weight: bold;
     line-height: 144px;
-
 
   }
   /*Text*/
@@ -120,6 +118,27 @@
 
     align-self: end;
     margin-top: 50px;
+
+  }
+  @media only screen and (max-width: 720px) {
+
+    .grid-container{
+      grid-template-columns: 50% 50%;
+      grid-template-rows: auto auto auto auto auto auto;
+
+    }
+    .item-3{
+      grid-row: 3/4;
+      grid-column: 1/2;
+    }
+    .item-6{
+      grid-row: 4/5;
+      grid-column: 1/2;
+    }
+    .item-10{
+      grid-row:4/5 ;
+      grid-column: 2/3;
+    }
 
   }
 </style>
