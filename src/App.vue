@@ -16,10 +16,11 @@
       <main-header
         :isMenuShow.sync="isMenuShow"
       ></main-header>
+      <main-header-menu :isMenuShow.sync="isMenuShow"></main-header-menu>
       <div v-if="$route.fullPath==='/'">
-        <main-header-menu :isMenuShow.sync="isMenuShow"></main-header-menu>
         <landing-page></landing-page>
         <about-page></about-page>
+        <HowItWorks></HowItWorks>
         <reward-page></reward-page>
         <main-footer></main-footer>
       </div>
@@ -35,6 +36,7 @@
 <script>
   import MainHeader from '@/components/MainHeader'
   import MainHeaderMenu from '@/components/MainHeaderMenu'
+  import HowItWorks from '@/components/HomePage/HowItWorks'
   import LandingPage from '@/components/HomePage/LandingPage'
   import AboutPage from '@/components/HomePage/AboutPage'
   import RewardPage from '@/components/HomePage/RewardPage'
@@ -42,15 +44,14 @@
   import AccountMenu from '@/components/AccountMenu'
   import Loader from '@/components/shared/Loader'
   import MainFooter from '@/components/HomeFooter'
-
   import LoggedInLayout from '@/layouts/LoggedInLayout'
   import MainLayout from '@/layouts/MainLayout'
-
   import {mapGetters} from 'vuex'
 
   export default {
     name: 'app',
     components: {
+      HowItWorks,
       MainHeader,
       MainHeaderMenu,
       LandingPage,
