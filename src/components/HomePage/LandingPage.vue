@@ -29,7 +29,7 @@
             <button @click="showSignUpModal()" class="btn btn_white">Sign up today for free</button>
           </div>
           <div class="middle-section__middle__button2">
-            <button class="btn btn_lightblue-outline">Watch the video <span class="play-icon"><i class="fa">&#xf04b;</i></span></button>
+            <button @click="showVideoModal()" class="btn btn_lightblue-outline">Watch the video <span class="play-icon"><i class="fa">&#xf04b;</i></span></button>
           </div>
         </div>
         <div class="middle-section__bottom">
@@ -40,7 +40,7 @@
       </div>
       <div class="last-section">
         <div class="last-section__bar">
-          <img src="./../../assets/img/bg3@svg.svg" width="100%" alt="Logo" @click="handleLogoClick">
+          <img src="./../../assets/img/bg3@svg.svg" width="100%" alt="Logo">
         </div>
         <div class="last-section__card">
           <img src="./../../assets/img/card@svg.svg" width="100%" alt="Logo">
@@ -51,16 +51,19 @@
       </div>
     </div>
     <auth-modals></auth-modals>
+    <media-modals></media-modals>
   </div>
 </template>
 <script>
   import AuthModals from '@/containers/AuthModals'
+  import MediaModals from '@/containers/MediaModals'
   import { mapGetters } from 'vuex'
 
   export default {
     name: 'LandingPage',
     components: {
-      AuthModals
+      AuthModals,
+      MediaModals
     },
     computed: {
       ...mapGetters([
@@ -70,6 +73,9 @@
     methods: {
       showSignUpModal () {
         this.$store.commit('signUpModal', true)
+      },
+      showVideoModal () {
+        this.$store.commit('videoModal', true)
       }
     }
   }
@@ -189,10 +195,10 @@
                 background: #64B5F3;
                 right: 1%;
                 top: 6%;
-                width: 50px;
-                height: 50px;
-                padding: 16px 22px;
-                border-radius: 50px;
+                width: 48px;
+                height: 48px;
+                padding: 15px 21px;
+                border-radius: 48px;
 
                 > i {
                   padding-right: 5px;
