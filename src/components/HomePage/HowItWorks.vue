@@ -1,7 +1,7 @@
 <template>
   <div class="how-it-works">
     <span id="walletandcoins"><img src="./../../assets/img/wallet and coins@2x.png" width="10%" alt="Logo"></span>
-    <span id="darkbg1"><img src="./../../assets/img/darkbg1.png" width="10%" alt="Logo"></span>
+    <span id="darkbg1"><img src="./../../assets/img/darkbg1.png" alt="Logo"></span>
     <span id="darkbg2"><img src="./../../assets/img/darkbg2.png" alt="Logo"></span>
 
     <div class="grid-container">
@@ -13,7 +13,7 @@
       You’ve got a question. Ask fellow shoppers for their opinions on the latest trends, clothes, and accessories.</div>
     <div class="item-6"><div class="text-headings">Give us your two cents</div>
       You’ve got the trendy touch. Vote on the latest polls to help other online shoppers find the right product for them.</div>
-    <div class="item-7"><span class="number">3</span><span class="number-icons"><img src="./../../assets/img/polls.png" width="6%" alt="Logo"></span></div>
+    <div class="item-7"><span class="number">3</span><span class="number-icons"><i style="color: #46b4e8" class="fa fa-commenting"></i></span></div>
     <div class="item-8"><span class="number">4</span><span class="number-icons"><img src="./../../assets/img/like.png" width="6%" alt="Logo"></span></div>
     <div class="item-9"><span class="number">5</span><span class="number-icons"><img src="./../../assets/img/shopping.png" width="6%" alt="Logo"></span></div>
     <div class="item-10"><div class="text-headings">Leave a comment</div>
@@ -38,7 +38,7 @@
 <style lang="scss" scoped>
 
   #darkbg1{
-    position: relative;
+    position: absolute;
     left: 15%;
   }
   #darkbg2{
