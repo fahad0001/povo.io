@@ -2,7 +2,7 @@
   <div class="how-it-works">
     <span id="walletandcoins"><img src="./../../assets/img/wallet and coins@2x.png" width="10%" alt="Logo"></span>
     <span id="darkbg1"><img src="./../../assets/img/darkbg1.png" width="10%" alt="Logo"></span>
-    <span id="darkbg2"><img src="./../../assets/img/darkbg1.png" width="10%"    alt="Logo"></span>
+    <span id="darkbg2"><img src="./../../assets/img/darkbg2.png" alt="Logo"></span>
 
     <div class="grid-container">
     <div class="item-1">How It Works?</div>
@@ -42,9 +42,9 @@
     left: 15%;
   }
   #darkbg2{
-    position: relative;
-    top: 500px;
-    left: 70%;
+    position: absolute;
+    top: 56px;
+    left: 88%;
   }
   #walletandcoins{
 
@@ -59,6 +59,7 @@
     bottom: 48px;
   }
   .how-it-works{
+    position: relative;
     background-color: #272E31;
   }
   .number-icons{
