@@ -134,7 +134,6 @@
           flex-grow: 25;
           text-align: center;
 
-
           &__heading {
             margin-top: 140px;
             color: white;
@@ -161,6 +160,11 @@
             color: white;
             font-size: 18px;
 
+            @media #{$mobile-screen-lg-max} {
+              margin-top: 14px;
+              font-size: 16px;
+            }
+
             @media #{$tablet-screen-sm-max} {
               margin-top: 28px;
             }
@@ -170,6 +174,10 @@
           &__button1 {
             margin-top: 72px;
 
+            @media #{$mobile-screen-lg-max} {
+              margin-top: 30px;
+            }
+
             @media #{$tablet-screen-sm-max} {
               margin-top: 32px;
             }
@@ -178,17 +186,29 @@
             button {
               padding: 19px 48px;
               color: #46B4E8;
+
+              @media #{$mobile-screen-lg-max} {
+                padding: 19px 22px;
+              }
             }
           }
 
           &__button2 {
             margin-top: 30px;
 
+            @media #{$mobile-screen-lg-max} {
+              margin-top: 10px;
+            }
+
             button {
               position: relative;
               padding: 19px 88px 19px 48px;
               border: 1px solid #FFFFFF;
               color: white;
+
+              @media #{$mobile-screen-lg-max} {
+                padding: 19px 65px 19px 20px;
+              }
 
               > .play-icon {
                 position: absolute;

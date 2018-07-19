@@ -89,6 +89,10 @@
           > .heading {
             color: white;
             font-size: 48px;
+
+            @media #{$mobile-screen-lg-max}{
+              font-size: 38px;
+            }
           }
 
           > .button {
