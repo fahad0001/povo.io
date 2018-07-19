@@ -12,6 +12,7 @@ import orders from './orders'
 import comments from './comments'
 import categories from './categories'
 import modals from './modals'
+import mediaModals from './media-modals'
 
 Vue.use(Vuex)
 export const store = new Vuex.Store({
@@ -27,6 +28,7 @@ export const store = new Vuex.Store({
     creatingOrder,
     orders,
     comments,
-    modals
+    modals,
+    mediaModals
   }
 })
