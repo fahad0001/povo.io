@@ -10,13 +10,13 @@
         </router-link>
       </li>
       <li>
-        <router-link :to="'/about'" class="menu__link logout">How It Works</router-link>
+        <router-link :to="'/about'" class="menu__link logout"><span class="icon-setting fa fa-wrench"></span>How It Works</router-link>
       </li>
       <li>
-        <a class="menu__link logout" @click="showLoginModal()">Login up</a>
+        <a class="menu__link" @click="showLoginModal()"><span class="icon-setting fa fa-sign-in"></span>Login up</a>
       </li>
       <li>
-        <a class="menu__link logout" @click="showSignUpModal()">Sign up</a>
+        <a class="menu__link" @click="showSignUpModal()"><span class="icon-setting fa fa-user-plus"></span>Sign up</a>
       </li>
     </ul>
     <auth-modals></auth-modals>
@@ -137,6 +137,7 @@
     }
 
     .home:before,
+    .icon-setting,
     .logout:before {
       content: '';
       position: absolute;
@@ -144,6 +145,8 @@
       width: 20px;
       height: 20px;
     }
+
+    .icon-setting {color: #49b4e8}
 
     .home {
       &:before {
