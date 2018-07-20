@@ -1,11 +1,17 @@
 <template>
   <footer class="footer">
+
+    <div class="logo">
     <router-link :to="'/'" class="footer-logo-padding header__logo-container">
       <img src="../assets/img/povo-logo.svg" alt="Logo" class="header__logo">
     </router-link>
+
+
     <div class="footer__copyright">
       © Copyright 2018, Povo.io
     </div>
+    </div>
+
     <ul class="footer__menu">
       <li class="footer__menu-item">
         <router-link :to="'/about'" class="footer__link">About</router-link>
@@ -19,7 +25,9 @@
       <li class="footer__menu-item">
         <router-link :to="'/terms'" class="footer__link">Tentative Terms </router-link>
       </li>
+
     </ul>
+
   </footer>
 </template>
 <script>
@@ -28,71 +36,78 @@
   }
 </script>
 <style lang="scss" scoped>
-  .footer {
+  .footer{
     position: absolute;
     bottom: 0;
     left: 0;
     right: 0;
-    display: flex;
     align-items: center;
     padding: 10px 20px;
+    display: grid;
+    grid-template-rows: 100px;
+    grid-template-columns: 1fr 1fr;
+    position: relative;
     background: #fff;
     border-top: 1px solid $gray-lighter;
 
     > .footer-logo-padding {
       padding-bottom: 7px;
+
     }
 
     &__copyright {
-      padding-left: 45px;
-      font-size: 13px;
+
+        height: 24px;
+        width: 145px;
+        color: #6B808B;
+        font-family: "F37 Ginger";
+        font-size: 12px;
+        line-height: 24px;
+        text-align: right;
+        padding-top: 5px;
+
     }
+  }
+  .footer__menu{
+    display: grid;
+    grid-template-columns: 30% 30% 30% 50%;
+    grid-template-rows: auto;
+    grid-column-gap: 15%;
+    justify-self: center;
+    color: #6B808B;
+    font-family: "F37 Ginger";
+    font-size: 16px;
+    line-height: 24px;
+    padding-top: 2%;
 
-    @media #{$tablet-screen-lg-min} {
-      padding: 30px 120px;
+
+
+  }
+
+  .logo{
+    display: grid;
+    grid-template-columns: 20% 30%;
+    grid-template-rows: auto;
+
+    padding-left: 5%;
+  }
+  @media only screen and (max-width: 720px) {
+    .footer{
+      grid-template-rows: auto auto;
+      grid-template-columns: auto;
+      grid-row-gap: 30px;
     }
-
-    &__menu {
-      margin-left: auto;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      flex-wrap: wrap;
-      max-height: 65px;
-      min-width: 108px;
-
-      @media #{$tablet-screen-lg-min} {
-        flex-direction: row;
-        max-height: initial;
-      }
+    .footer__menu{
+      grid-template-rows: auto auto;
+      grid-template-columns: 1fr 1fr;
+      justify-self: normal;
+      grid-column-gap: 5%;
+      grid-row-gap: 20px;
     }
+    .logo{
+      grid-template-columns: 1fr 1fr;
+      padding-left: 0%;
 
-    &__menu-item:not(:last-child) {
-      @media #{$tablet-screen-lg-min} {
-        margin-right: 57px;
-      }
-    }
-
-    &__menu-item:nth-child(1),
-    &__menu-item:nth-child(2) {
-      margin-right: 14px;
-
-      @media #{$tablet-screen-lg-min} {
-        margin-right: 57px;
-      }
-    }
-
-    &__link {
-      display: block;
-      padding: 6px 0;
-
-      @media #{$tablet-screen-lg-min} {
-        padding: 10px 0;
-      }
-
-      &:hover {
-        opacity: 0.8;
-      }
     }
   }
 </style>
