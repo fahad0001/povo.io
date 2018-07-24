@@ -1,21 +1,22 @@
 @font-face {
-  font-family: 'GillSans';
-  src: url('../fonts/GillSans.woff') format('woff');
+  font-family: 'F37Ginger';
+  src: url('../fonts/F37Ginger-light.woff') format('woff');
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
-  font-family: 'GillSans';
-  src: url('../fonts/GillSans-SemiBold.woff') format('woff');
+  font-family: 'F37Ginger';
+  src: url('../fonts/F37Ginger-Bold.woff') format('woff');
   font-weight: 600;
   font-style: normal;
 }
 
 * {
-  font-family: 'GillSans', sans-serif;
+  font-family: 'F37Ginger', 'sans-serif';
   font-weight: 400;
   font-size: 16px;
+  font-style: normal;
   color: #000;
 }
 

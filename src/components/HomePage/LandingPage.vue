@@ -137,28 +137,32 @@
           &__heading {
             margin-top: 140px;
             color: white;
-            font-size: 58px;
+            font-weight: bold;
+            font-size: 48px;
 
             @media #{$tablet-screen-sm-max} {
               margin-top: 70px;
-              font-size: 48px;
+              font-weight: bold;
+              font-size: 38px;
             }
 
             @media #{$tablet-screen-lg-min} {
               margin-top: 80px;
-              font-size: 48px;
+              font-weight: bold;
+              font-size: 38px;
             }
 
             @media #{$desktop-screen-lg-min} {
               margin-top: 190px;
-              font-size: 58px;
+              font-weight: bold;
+              font-size: 48px;
             }
           }
 
           &__para {
             margin-top: 48px;
             color: white;
-            font-size: 18px;
+            font-size: 17px;
 
             @media #{$mobile-screen-lg-max} {
               margin-top: 14px;

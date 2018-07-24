@@ -88,10 +88,11 @@
 
           > .heading {
             color: white;
-            font-size: 48px;
+            font-weight: bold;
+            font-size: 38px;
 
             @media #{$mobile-screen-lg-max}{
-              font-size: 38px;
+              font-size: 28px;
             }
           }
 

@@ -37,7 +37,6 @@
 </script>
 <style lang="scss" scoped>
   .footer{
-    position: absolute;
     bottom: 0;
     left: 0;
     right: 0;
@@ -53,6 +52,10 @@
     > .footer-logo-padding {
       padding-bottom: 7px;
 
+    }
+
+    &__link {
+      font-size: 14px;
     }
 
     &__copyright {
@@ -79,9 +82,6 @@
     font-size: 16px;
     line-height: 24px;
     padding-top: 2%;
-
-
-
   }
 
   .logo{
