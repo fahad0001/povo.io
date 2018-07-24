@@ -125,7 +125,6 @@
     &__link {
       margin-left: 25px;
       padding: 20px 15px;
-      font-weight: 600;
       cursor: pointer;
 
       @media #{$mobile-screen-md-min} {

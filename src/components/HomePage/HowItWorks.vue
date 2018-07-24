@@ -68,7 +68,6 @@
   }
   .text-headings{
     color: #FFFFFF;
-    font-family: "F37 Ginger";
     font-size: 20px;
     font-weight: bold;
     line-height: 64px;
@@ -92,7 +91,6 @@
     width: 58px;
     opacity: 0.1;
     color: #FFFFFF;
-    font-family: "F37 Ginger";
     font-size: 144px;
     font-weight: bold;
     line-height: 144px;
@@ -102,13 +100,11 @@
   .item-12,.item-11,.item-10,.item-6,.item-5,.item-4 {
 
     color: rgba(255,255,255,0.8);
-    font-family: "F37 Ginger";
     font-size: 16px;
     line-height: 30px;
   }
   .item-1{
     color: #FFFFFF;
-    font-family: "F37 Ginger";
     font-size: 40px;
     font-weight: bold;
     line-height: 64px;

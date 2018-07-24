@@ -63,7 +63,6 @@
         height: 24px;
         width: 145px;
         color: #6B808B;
-        font-family: "F37 Ginger";
         font-size: 12px;
         line-height: 24px;
         text-align: right;
@@ -78,7 +77,6 @@
     grid-column-gap: 15%;
     justify-self: center;
     color: #6B808B;
-    font-family: "F37 Ginger";
     font-size: 16px;
     line-height: 24px;
     padding-top: 2%;
