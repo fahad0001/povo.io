@@ -30,7 +30,7 @@ module.exports = function (shipit) {
 
     production: {
       servers: 'deploy@138.197.35.62',
-      branch: 'production'
+      branch: 'master'
     },
     staging: {
       servers: 'deploy@78.155.217.67',
@@ -48,4 +48,5 @@ module.exports = function (shipit) {
   shipit.on('published', function () {
     shipit.start('build')
   })
+
 }
