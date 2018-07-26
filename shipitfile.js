@@ -48,5 +48,4 @@ module.exports = function (shipit) {
   shipit.on('published', function () {
     shipit.start('build')
   })
-
 }
