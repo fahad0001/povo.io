@@ -5,7 +5,6 @@ import App from './App'
 import router from './router'
 import Vuelidate from 'vuelidate'
 import vSelect from 'vue-select'
-import VueFacebookPixel from 'vue-analytics-facebook-pixel'
 import VueAwesomeSwiper from 'vue-awesome-swiper'
 import {VueMasonryPlugin} from 'vue-masonry'
 
@@ -18,11 +17,8 @@ Vue.config.productionTip = false
 Vue.use(VueMasonryPlugin)
 Vue.use(VueAwesomeSwiper)
 Vue.use(Vuelidate)
-Vue.use(VueFacebookPixel)
 Vue.component('v-select', vSelect)
 Vue.use(require('vue-chartist'))
-
-Vue.analytics.fbq.init('103136017134573')
 
 /* eslint-disable no-new */
 export const vue = new Vue({

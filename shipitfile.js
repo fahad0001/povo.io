@@ -8,7 +8,7 @@ module.exports = function (shipit) {
     default: {
       workspace: 'tmp/shipit',
       deployTo: '/home/deploy/povo',
-      repositoryUrl: 'https://gitlab.com/surkov/povo',      
+      repositoryUrl: 'https://gitlab.com/povo-group/povo-frontend',
       ignores: ['.git', 'node_modules','tmp','.DS_Store','bower_components', 'out', 'dist'],
       rsync: ['--del'],
       keepReleases: 5,
