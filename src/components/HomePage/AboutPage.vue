@@ -21,7 +21,7 @@
             <p class="head-para">Povo is a <span>free social shopping experience</span> where you can earn rewards in the form of gift cards in exchange for feedback on the latest cloths, accessories and products.</p>
           </div>
           <div>
-            <p>To build a better online shopping experience, collaborate with others and earn points to redeem rewards.</p>
+            <p class="head-para">To build a better online shopping experience, collaborate with others and earn points to redeem rewards.</p>
           </div>
         </div>
         <div class="body-content">
@@ -93,6 +93,7 @@
 
       &__head-container {
         margin-left: 15%;
+        margin-top: 5%;
         width: 75%;
         height: 100%;
         display: grid;
@@ -105,8 +106,8 @@
           align-content: space-around;
           grid-auto-flow: column;
 
-          @media #{$tablet-screen-sm-max} { grid-auto-flow: row; margin-top: 2%}
-
+          @media only screen and (max-width: 850px) { grid-auto-flow: row; margin-top: 20%; }
+          @media only screen and (max-width: 350px) {margin-top: 60%}
           > div {
             margin: 5px;
             padding: 10px;
@@ -114,6 +115,8 @@
             > h1 {
               font-size: 48px;
               font-weight: bolder;
+
+              @media only screen and (max-width: 550px) {font-size: 38px}
             }
 
             > p {
@@ -127,7 +130,7 @@
             > .head-para {
               margin-left: 25%;
 
-              @media #{$tablet-screen-md-max} {margin-left: 0;}
+              @media #{$tablet-screen-md-max} {margin-left: 0; font-size: 16px}
             }
           }
         }
@@ -139,8 +142,10 @@
           grid-auto-flow: column;
           grid-gap: 2%;
 
-          @media #{$tablet-screen-sm-max} {align-self: center}
-
+          @media only screen and (max-width: 900px) {margin-top: 5%}
+          @media only screen and (max-width: 850px) {align-self: stretch}
+          @media only screen and (max-width: 550px) {margin-top: 5%}
+          @media only screen and (max-width: 350px) {margin-top: 25%}
         }
       }
 

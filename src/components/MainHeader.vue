@@ -14,11 +14,6 @@
         <div class="hamburger" id="header-trigger">
           <div @click="showMenu()" class="header__hamburger-show">
             <img src="../assets/img/hamburger.svg" alt="Logo" class="nav-toggle">
-            <!--<button @click="showMenu()" v-bind:class="{'nav-toggle': !isMenuShow,  'nav-toggle opened': isMenuShow}">-->
-              <!--<span class="bar-top"></span>-->
-              <!--<span class="bar-mid"></span>-->
-              <!--<span class="bar-bot"></span>-->
-            <!--</button>-->
           </div>
         </div>
       </div>

@@ -140,19 +140,25 @@
             font-weight: bold;
             font-size: 48px;
 
-            @media #{$tablet-screen-sm-max} {
+            @media only screen and (max-width: 768px) {
               margin-top: 70px;
               font-weight: bold;
-              font-size: 38px;
+              font-size: 28px;
             }
 
-            @media #{$tablet-screen-lg-min} {
+            @media only screen and (max-width: 450px) {
+              margin-top: 120px;
+              font-weight: bold;
+              font-size: 28px;
+            }
+
+            @media only screen and (min-width: 900px) {
               margin-top: 80px;
               font-weight: bold;
               font-size: 38px;
             }
 
-            @media #{$desktop-screen-lg-min} {
+            @media only screen and (min-width: 1440px) {
               margin-top: 190px;
               font-weight: bold;
               font-size: 48px;
@@ -178,11 +184,12 @@
           &__button1 {
             margin-top: 72px;
 
-            @media #{$mobile-screen-lg-max} {
+            @media only screen and (max-width: 650px) {
               margin-top: 30px;
             }
 
-            @media #{$tablet-screen-sm-max} {
+            @media only screen and (max-width: 450px) {
+              font-size: 12px;
               margin-top: 32px;
             }
 
@@ -191,8 +198,12 @@
               padding: 19px 48px;
               color: #46B4E8;
 
-              @media #{$mobile-screen-lg-max} {
+              @media only screen and (max-width: 650px) {
                 padding: 19px 22px;
+              }
+
+              @media only screen and (max-width: 350px) {
+                font-size: 12px;
               }
             }
           }
@@ -200,8 +211,8 @@
           &__button2 {
             margin-top: 30px;
 
-            @media #{$mobile-screen-lg-max} {
-              margin-top: 10px;
+            @media only screen and (max-width: 650px) {
+              margin-top: 20px;
             }
 
             button {
@@ -210,8 +221,12 @@
               border: 1px solid #FFFFFF;
               color: white;
 
-              @media #{$mobile-screen-lg-max} {
+              @media only screen and (max-width: 650px) {
                 padding: 18px 65px 18px 15px;
+              }
+
+              @media only screen and (max-width: 350px) {
+                font-size: 12px;
               }
 
               > .play-icon {
@@ -223,6 +238,10 @@
                 height: 48px;
                 padding: 15px 21px;
                 border-radius: 48px;
+
+                @media only screen and (max-width: 350px) {
+                  top: 2%;
+                }
 
                 > i {
                   padding-right: 5px;
