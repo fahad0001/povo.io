@@ -86,10 +86,18 @@
     position: relative;
     height: 100vh;
 
+    @media only screen and (max-height: 420px) {
+      height: 200vh;
+    }
+
     .content-wrapper {
       display: flex;
       flex-flow: row wrap;
       height: 100vh;
+
+      @media only screen and (max-height: 420px) {
+        height: 200vh;
+      }
 
       > * { flex: 1 1 0}
 
