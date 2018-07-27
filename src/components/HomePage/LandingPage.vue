@@ -146,12 +146,6 @@
               font-size: 28px;
             }
 
-            @media only screen and (max-width: 450px) {
-              margin-top: 120px;
-              font-weight: bold;
-              font-size: 28px;
-            }
-
             @media only screen and (min-width: 900px) {
               margin-top: 80px;
               font-weight: bold;
