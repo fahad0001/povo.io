@@ -55,6 +55,7 @@
         this.$store.commit('signUpModal', true)
       },
       scrollToHIW () {
+        this.$emit('update:isMenuShow', false)
         this.$emit('ScrollToHIW')
       }
     }
