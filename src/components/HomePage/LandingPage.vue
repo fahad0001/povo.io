@@ -235,7 +235,7 @@
                 position: absolute;
                 background: #64B5F3;
                 right: 1%;
-                top: 6%;
+                top: 8%;
                 width: 48px;
                 height: 48px;
                 padding: 15px 21px;
