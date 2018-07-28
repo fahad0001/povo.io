@@ -3,7 +3,10 @@
     <h2> About us</h2>
     <p>Short for PollVote, Povo is a Rewards based social shopping platform. Users are rewarded upon creating, sharing and upvoting content to offer the most reliable online shopping experience.</p>
     <p>We believe in enriching the online shopping experience with real world feedback from real users.</p>
-    <video :src="videoPath" controls></video>
+    <video width="100%"
+           src="https://res.cloudinary.com/relymer-group/video/upload/v1532814743/povo-media/povo_about.mp4"
+           controls>
+    </video>
   </div>
 </template>
 

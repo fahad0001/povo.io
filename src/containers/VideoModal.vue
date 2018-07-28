@@ -1,16 +1,14 @@
 <template>
   <div class="default-modal-container">
-    <video width="100%" :src="videoPath" controls></video>
+    <video width="100%"
+           src="https://res.cloudinary.com/relymer-group/video/upload/v1532814743/povo-media/povo_about.mp4"
+           controls>
+    </video>
   </div>
 </template>
 <script>
   export default {
-    name: 'VideoModal',
-    computed: {
-      videoPath () {
-        return require('@/assets/videos/povo_about.mp4')
-      }
-    }
+    name: 'VideoModal'
   }
 </script>
 <style lang="scss" scoped>
