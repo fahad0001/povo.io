@@ -7,8 +7,7 @@
 
     <div class="header__menu">
       <div class="header__links">
-        <router-link :to="'/about'" class="header__btn header__text-color">How It Works</router-link>
-
+        <a class="header__link header__text-color header__btn hover-link" @click="scrollToHIW()">How It Works</a>
         <a class="header__link header__text-color header__btn hover-link" @click="showLoginModal()">Login</a>
         <a class="header__link btn btn_lightblue header__btn hover-link" @click="showSignUpModal()">Sign up</a>
         <div class="hamburger" id="header-trigger">
@@ -48,7 +47,9 @@
       showMenu () {
         this.$emit('update:isMenuShow', true)
       },
-
+      scrollToHIW () {
+        this.$emit('ScrollToHIW')
+      },
       showSignUpModal () {
         this.$store.commit('signUpModal', true)
       },

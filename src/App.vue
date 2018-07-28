@@ -15,8 +15,12 @@
     <main-layout v-else>
       <main-header
         :isMenuShow.sync="isMenuShow"
+        @ScrollToHIW="scrollToHIW()"
       ></main-header>
-      <main-header-menu :isMenuShow.sync="isMenuShow"></main-header-menu>
+      <main-header-menu
+        :isMenuShow.sync="isMenuShow"
+        @ScrollToHIW="scrollToHIW"
+      ></main-header-menu>
       <div v-if="$route.fullPath==='/'">
         <landing-page></landing-page>
         <about-page></about-page>
@@ -47,6 +51,7 @@
   import LoggedInLayout from '@/layouts/LoggedInLayout'
   import MainLayout from '@/layouts/MainLayout'
   import {mapGetters} from 'vuex'
+  import VueScrollTo from 'vue-scrollto'
 
   export default {
     name: 'app',
@@ -66,7 +71,8 @@
     },
     data () {
       return {
-        isMenuShow: false
+        isMenuShow: false,
+        isScrollToHIW: false
       }
     },
     created () {
@@ -82,6 +88,11 @@
         if (token && !this.token) {
           this.$store.dispatch('setToken', token)
         }
+      },
+      scrollToHIW () {
+        this.$router.push('/')
+        let container = this.$el.querySelector('#how-it-works')
+        VueScrollTo.scrollTo(container, 500)
       }
     }
   }

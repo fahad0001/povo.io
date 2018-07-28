@@ -1,5 +1,5 @@
 <template>
-  <div class="how-it-works">
+  <div id="how-it-works" class="how-it-works">
     <span id="walletandcoins"><img src="./../../assets/img/wallet and coins@2x.png" width="10%" alt="Logo"></span>
     <span id="darkbg1"><img src="./../../assets/img/darkbg1.png" alt="Logo"></span>
     <span id="darkbg2"><img src="./../../assets/img/darkbg2.png" alt="Logo"></span>

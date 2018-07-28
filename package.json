@@ -31,6 +31,7 @@
     "vue-chartist": "^2.1.2",
     "vue-masonry": "^0.10.16",
     "vue-router": "^2.7.0",
+    "vue-scrollto": "^2.11.0",
     "vue-select": "^2.2.0",
     "vue-simple-tabs": "^1.4.2",
     "vue2-dropzone": "^3.0.0",

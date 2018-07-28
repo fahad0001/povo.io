@@ -10,7 +10,7 @@
         </router-link>
       </li>
       <li>
-        <router-link :to="'/about'" class="menu__link logout"><span class="icon-setting fa fa-wrench"></span>How It Works</router-link>
+        <a class="menu__link" @click="scrollToHIW()"><span class="icon-setting fa fa-sign-in"></span>How It Works</a>
       </li>
       <li>
         <a class="menu__link" @click="showLoginModal()"><span class="icon-setting fa fa-sign-in"></span>Login up</a>
@@ -53,6 +53,9 @@
       },
       showSignUpModal () {
         this.$store.commit('signUpModal', true)
+      },
+      scrollToHIW () {
+        this.$emit('ScrollToHIW')
       }
     }
   }
