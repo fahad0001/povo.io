@@ -20,7 +20,7 @@
     "chartist-plugin-legend": "^0.6.2",
     "chalk": "^2.4.2",
     "j-toker": "0.0.10-beta3",
-    "lodash": "^4.17.4",
+    "lodash": "^4.17.21",
     "moment": "^2.18.1",
     "node-sass": "^4.14.1",
     "normalize.css": "^7.0.0",
