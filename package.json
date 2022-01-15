@@ -30,7 +30,7 @@
     "sass-loader": "^6.0.6",
     "swiper": "^4.3.3",
     "semver": "^5.3.0",
-    "shelljs": "^0.7.6",
+    "shelljs": "^0.8.5",
     "url-loader": "^0.5.8",
     "vue": "^2.4.2",
     "vue-analytics-facebook-pixel": "^1.0.1",
